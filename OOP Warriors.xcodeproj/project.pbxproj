@@ -12,6 +12,11 @@
 		1A5DEED71BF54ECA00D25E49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5DEED51BF54ECA00D25E49 /* Main.storyboard */; };
 		1A5DEED91BF54ECA00D25E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5DEED81BF54ECA00D25E49 /* Assets.xcassets */; };
 		1A5DEEDC1BF54ECA00D25E49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5DEEDA1BF54ECA00D25E49 /* LaunchScreen.storyboard */; };
+		1A5DEEE41BF54F2700D25E49 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5DEEE31BF54F2700D25E49 /* Character.swift */; };
+		1A5DEEEA1BF586E800D25E49 /* PlayerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5DEEE91BF586E800D25E49 /* PlayerOne.swift */; };
+		1A5DEEEC1BF5871E00D25E49 /* PlayerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5DEEEB1BF5871E00D25E49 /* PlayerTwo.swift */; };
+		1AD5E1431BF6A2B100D6F7B6 /* Star_Commander.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5E1421BF6A2B100D6F7B6 /* Star_Commander.wav */; };
+		1AD5E1451BF6B17C00D6F7B6 /* whack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5E1441BF6B17C00D6F7B6 /* whack.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		1A5DEED81BF54ECA00D25E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A5DEEDB1BF54ECA00D25E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A5DEEDD1BF54ECA00D25E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5DEEE31BF54F2700D25E49 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		1A5DEEE91BF586E800D25E49 /* PlayerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerOne.swift; sourceTree = "<group>"; };
+		1A5DEEEB1BF5871E00D25E49 /* PlayerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTwo.swift; sourceTree = "<group>"; };
+		1AD5E1421BF6A2B100D6F7B6 /* Star_Commander.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Star_Commander.wav; sourceTree = "<group>"; };
+		1AD5E1441BF6B17C00D6F7B6 /* whack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whack.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		1A5DEED01BF54ECA00D25E49 /* OOP Warriors */ = {
 			isa = PBXGroup;
 			children = (
+				1AD5E1441BF6B17C00D6F7B6 /* whack.mp3 */,
+				1AD5E1421BF6A2B100D6F7B6 /* Star_Commander.wav */,
 				1A5DEED11BF54ECA00D25E49 /* AppDelegate.swift */,
 				1A5DEED31BF54ECA00D25E49 /* ViewController.swift */,
 				1A5DEED51BF54ECA00D25E49 /* Main.storyboard */,
 				1A5DEED81BF54ECA00D25E49 /* Assets.xcassets */,
 				1A5DEEDA1BF54ECA00D25E49 /* LaunchScreen.storyboard */,
 				1A5DEEDD1BF54ECA00D25E49 /* Info.plist */,
+				1A5DEEE31BF54F2700D25E49 /* Character.swift */,
+				1A5DEEE91BF586E800D25E49 /* PlayerOne.swift */,
+				1A5DEEEB1BF5871E00D25E49 /* PlayerTwo.swift */,
 			);
 			path = "OOP Warriors";
 			sourceTree = "<group>";
@@ -124,7 +139,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A5DEEDC1BF54ECA00D25E49 /* LaunchScreen.storyboard in Resources */,
+				1AD5E1431BF6A2B100D6F7B6 /* Star_Commander.wav in Resources */,
 				1A5DEED91BF54ECA00D25E49 /* Assets.xcassets in Resources */,
+				1AD5E1451BF6B17C00D6F7B6 /* whack.mp3 in Resources */,
 				1A5DEED71BF54ECA00D25E49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5DEEE41BF54F2700D25E49 /* Character.swift in Sources */,
 				1A5DEED41BF54ECA00D25E49 /* ViewController.swift in Sources */,
+				1A5DEEEC1BF5871E00D25E49 /* PlayerTwo.swift in Sources */,
 				1A5DEED21BF54ECA00D25E49 /* AppDelegate.swift in Sources */,
+				1A5DEEEA1BF586E800D25E49 /* PlayerOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +305,7 @@
 				1A5DEEE21BF54ECA00D25E49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
